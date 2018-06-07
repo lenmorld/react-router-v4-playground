@@ -12,7 +12,7 @@ const API_KEY_YOUTUBE = 'AIzaSyAzTqFRUH7rWXv9X6UJc0yFNI8qs8BKr_M';
 // class based component instead of functional, so it can keep track of videos (it needs state)
 // props available anywhere in any method as this.props
 
-class App extends Component {
+class VideoApp extends Component {
     constructor(props) {
         super(props);
 
@@ -91,4 +91,4 @@ class App extends Component {
 // };
 
 // ReactDOM.render(<App />, document.querySelector('.container'));
-export default App;
+export default VideoApp;
